@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Wprowadz x: <input type="number" id="x"></p>
+    <p>Wprowadz y: <input type="number" id="y"></p>
+    <button onclick="oblicz()">Oblicz</button>
+    <p>Wynik: <span id="wynik"></span></p>
+
+    <script>
+        function NWD(x,y)
+        {
+            while(y != x)
+        {
+            if(y > x)
+        {
+            y=y-x;
+        }
+        else
+        {
+            x=x-y
+        }
+        }
+        return x;
+        }
+        function oblicz(){
+            
+        let x = parseFloat(document.getElementById("x").value);
+        let y = parseFloat(document.getElementById("y").value);
+
+        if(isNaN(x)|| isNaN(y))
+        {
+            alert("Nie wprowadzono danych")
+        }
+        let wynik = NWD(x,y);
+        document.getElementById("wynik").innerHTML = wynik
+        }
+        
+
+
+    </script>
+</body>
+</html>

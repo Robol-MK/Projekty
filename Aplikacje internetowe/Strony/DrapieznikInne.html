@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drapieżniki I Inne</title>
+    <link rel="stylesheet" href="DrapieznikInne.css">
+</head>
+<body>
+
+   
+    <header>
+        <h1>Drapieżniki I Inne</h1>
+    </header>
+    
+   
+    <nav>
+        <h2>Wybierz styl życia:
+            <select name="dieta" id="dieta">
+                <option value="wszystkozerne">Wszystkożerne</option>
+                <option value="miesozerne">Mięsożerne</option>
+                <option value="roslinozerne">Roślinożerne</option>
+                <option value="padlinozerne">Padlinożerne</option>
+            </select>
+            <button onclick="Zobacz()">Zobacz</button>
+        </h2>
+    </nav>
+
+   
+    <main>
+     
+        <section id="lewy">
+            <h2>Lista Zwierząt</h2>
+            <ul>
+                <li class="miesozerne">Sum Pospolity -> drapieżnik</li>
+                <li class="miesozerne">Jesiotr Zachodni -> drapieżnik</li>
+                <li class="miesozerne">Puszczyk Zwyczajny -> drapieżnik</li>
+                <li class="miesozerne">Wilk Szary -> drapieżnik</li>
+                <li class="miesozerne">Dingo Australijski -> drapieżnik</li>
+                <li class="roslinozerne">Sarna Europejska -> roślinożerny</li>
+                <li class="padlinozerne">Hiena Brunatna -> padlinożerny</li>
+                <li class="wszystkozerne">Wrona Siwa -> wszystkożerny</li>
+                <li class="wszystkozerne">Sroka Zwyczajna -> wszystkożerny</li>
+            </ul>
+        </section>
+
+        <section id="srodek">
+            <h2>Wszystkożerne</h2>
+            <p>Wrona Siwa -> wszystkożerny</p>
+            <p>Sroka Zwyczajna -> wszystkożerny</p>
+        </section>
+
+        
+        <section id="prawy">
+            <img src="Wilk.jpg" alt="Wilk">
+        </section>
+    </main>
+
+  
+    <footer>
+        <a href="https://pl.wikipedia.org/wiki/Zwierzęta" target="_blank">Przeczytaj o zwierzętach na Wikipedii</a>, Autor strony: Maciek Kulik
+    </footer>
+
+   
+<script>
+    function Zobacz() {
+       
+        let listaRozwijana = document.getElementById("dieta");
+
+      
+        let wybranaDieta = listaRozwijana.value;
+        let tekstNaglowka = listaRozwijana.options[listaRozwijana.selectedIndex].text;
+
+       
+        let sekcjaSrodek = document.getElementById("srodek");
+
+      
+        let dopasowaneZwierzeta = document.getElementsByClassName(wybranaDieta);
+
+       
+        sekcjaSrodek.innerHTML = "<h2>" + tekstNaglowka + "</h2>";
+
+      
+        for (let i = 0; i < dopasowaneZwierzeta.length; i++) {
+            sekcjaSrodek.innerHTML += "<p>" + dopasowaneZwierzeta[i].innerText + "</p>";
+        }
+    }
+</script>
+</body>
+</html>

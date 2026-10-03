@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: rgba(28, 127, 134, 0.993); /* Ustawienie tła dla całego body usuwa biały pas */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(28, 127, 134, 0.993);
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    color: black;
+    background-color: rgb(63, 226, 218);
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(28, 127, 134, 0.993);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    flex-grow: 1; 
+}
+
+#lewy {
+    width: 30%;
+    border: 2px dotted white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#lewy h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#lewy ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+#srodek {   
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#prawy {
+    width: 35%;
+}
+
+#prawy img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+footer {
+    padding: 30px;
+    font-weight: bold;
+    bottom: 0;
+    background-color: rgba(20, 149, 158, 0.993); 
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #80d8ff;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Wpisz liczbe</p><input type="text" id="input">
+    <button onclick="sprawdz()">Sprawdz</button>
+    <p id="wynik"></p>
+
+    <script>
+        function Czypierwsza(x){
+            for(let i=2;i<x;i++)
+        {
+            if(x%i==0)
+        {
+            return false;
+        }
+        }
+        return true;
+        }
+        function sprawdz(){
+            let x = parseFloat(document.getElementById("input").value);
+            let w = document.getElementById("wynik");
+
+            if(!isNaN(x))
+        {
+            if(Czypierwsza(x))
+        {
+            w.innerHTML = "Liczba pierwsza"
+        }
+        else
+        {
+            w.innerHTML = "Nie jest Liczba pierwsza"
+        }
+        }
+        }
+    </script>
+</body>
+</html>

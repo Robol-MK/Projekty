@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Czype\u0142noletnia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A724D0D5-4A57-492D-AB92-23CD96F472E7}|Czype\u0142noletnia\\Czype\u0142noletnia.vcxproj|C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Czype\u0142noletnia\\Czype\u0142noletnia\\Czype\u0142noletnia.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A724D0D5-4A57-492D-AB92-23CD96F472E7}|Czype\u0142noletnia\\Czype\u0142noletnia.vcxproj|solutionrelative:Czype\u0142noletnia\\Czype\u0142noletnia.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Czype\u0142noletnia.cpp",
+              "DocumentMoniker": "C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Czype\u0142noletnia\\Czype\u0142noletnia\\Czype\u0142noletnia.cpp",
+              "RelativeDocumentMoniker": "Czype\u0142noletnia\\Czype\u0142noletnia.cpp",
+              "ToolTip": "C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Czype\u0142noletnia\\Czype\u0142noletnia\\Czype\u0142noletnia.cpp",
+              "RelativeToolTip": "Czype\u0142noletnia\\Czype\u0142noletnia.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-02T16:50:58.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

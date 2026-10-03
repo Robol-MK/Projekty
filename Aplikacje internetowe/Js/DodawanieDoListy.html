@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input">
+    <button id="dodaj">Dodaj</button>
+    <button id="sortuj">Sortuj</button>
+    <ul id="ul"></ul>
+
+    <script>
+        let cars = [];
+        let input = document.getElementById("input");
+        let ul = document.getElementById("ul");
+
+        document.getElementById("dodaj").addEventListener("click",function(){
+            let car = input.value.trim();
+
+            if(car != "")
+        {
+            cars.push(car);
+            input.value = "";
+            list();
+        }
+        else
+        {
+            alert("Wpisz Marke samochodu");
+
+        }
+        });
+
+        document.getElementById("sortuj").addEventListener("click",function()
+    {
+        cars.sort();
+
+        list();
+    })
+
+    function list(){
+        ul.innerHTML= "";
+        for(let i = 0;i<cars.length;i++)
+    {
+        let li = document.createElement("li");
+        li.innerHTML=cars[i];
+        ul.appendChild(li);
+    }
+    }
+    </script>
+</body>
+</html>

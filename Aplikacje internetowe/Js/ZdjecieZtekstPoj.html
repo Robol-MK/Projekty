@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1">
+
+
+    </div>
+    <button id="bt1">Dodaj Zdjęcie</button>
+    <script>
+        document.getElementById("bt1").addEventListener("click",function()
+    {
+        let d1 = document.getElementById("d1");
+        let img = document.createElement("img");
+        img.setAttribute("src","Guts.jpg");
+        let p = document.createElement("p");
+        p.innerHTML = "Guts";
+        d1.appendChild(img);
+        d1.appendChild(p);
+    })
+    </script>
+</body>
+</html>

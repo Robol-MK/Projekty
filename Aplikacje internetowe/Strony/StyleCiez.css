@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#znak {
+    height: 90px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+
+aside {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+aside ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+aside a {
+    color: blue;
+    font-weight: bold;
+}
+
+
+main {
+    float: left;
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+
+
+.srodkowy {
+    width: 60%;
+}
+
+.srodkowy h2 {
+    margin-top: 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #b3b3b3;
+    padding: 8px 12px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* POŚWIETLENIA WIERSZY DLA KLAS Z TWOJEGO KODU */
+tr.green {
+    background-color: #8BC34A;
+    color: black;
+}
+
+tr.red {
+    background-color: #FF0000;
+    color: white;
+}
+
+
+.prawy {
+    width: 40%;
+}
+
+.prawy img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* STOPKA */
+footer {
+    clear: both;
+    background-color: #4CAF50;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Pot\u0119gowanie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E208F53-133C-4DBF-BFAA-7C5CBE142BCA}|Pot\u0119gowanie\\Pot\u0119gowanie.vcxproj|C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Pot\u0119gowanie\\Pot\u0119gowanie\\Pot\u0119gowanie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E208F53-133C-4DBF-BFAA-7C5CBE142BCA}|Pot\u0119gowanie\\Pot\u0119gowanie.vcxproj|solutionrelative:Pot\u0119gowanie\\Pot\u0119gowanie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pot\u0119gowanie.cpp",
+              "DocumentMoniker": "C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Pot\u0119gowanie\\Pot\u0119gowanie\\Pot\u0119gowanie.cpp",
+              "RelativeDocumentMoniker": "Pot\u0119gowanie\\Pot\u0119gowanie.cpp",
+              "ToolTip": "C:\\Users\\mkuli\\Desktop\\Projekty\\Cplusplus\\Pot\u0119gowanie\\Pot\u0119gowanie\\Pot\u0119gowanie.cpp",
+              "RelativeToolTip": "Pot\u0119gowanie\\Pot\u0119gowanie.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-02T16:22:50.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

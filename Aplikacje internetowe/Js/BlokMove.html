@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            background-color: violet;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="start()">Start</button>
+    <div id="div"></div>
+
+    <script>
+        let pozycjax = 0
+        function pozycja(){
+            div = document.getElementById("div");
+            pozycjax += 10;
+            div.style.left = pozycjax + "px";
+        }
+        function start()
+        {
+            setInterval(pozycja,1000)
+        }
+    </script>
+</body>
+</html>
